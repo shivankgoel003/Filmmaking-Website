@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Splash&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(200, 200, 197);
+    width: 300px;
+    font-family: 'Fire Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.2s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;    
+
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+text-decoration: none;
+color: rgb(6, 6, 6);
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer
+{
+    /* background-color: rgb(158, 6, 102); */
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo
+{
+  display: flex;  
+  justify-content: center;
+  flex-direction: column ;
+  font-family: 'Source Code Pro', monospace;
+}
+.devPic  img{
+     height: 58vh;  
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fire Sans', sans-serif;
+}
+.about{
+    padding: 10px;
+    font-size:20px ;
+}
+
+.moreabout{
+    padding: 5px 0px 5px;
+    font-size: 20px;
+    font-family:'Fire Sans', sans-serif;
+    margin-top:23px ;
+}
+
+.buttons{
+    margin-top: 34px ;
+}
+
+.btn{
+    padding: 8px 10px ;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding-top: 5px;
+    font-size: 12px ;
+}
+
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;   
+    font-family: 'Fire Sans', sans-serif; 
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+        color: midnightblue;
+        margin: 0 5px;
+        padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+    padding-bottom: 5px;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.myworkItem{
+    margin: 20px;
+    font-family: 'Fira sans', sans-serif;
+}
+
+.myworkContainer h1{
+    font-family: 'Fira sans', sans-serif;
+    margin: 23px;
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    color:  rgb(200, 200, 197);
+}
+
+.ham{
+    margin-top:10px ;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 215px;
+}
+ 
+@media (max-width: 1615px){
+   *{
+        /* background-color: rgb(188, 131, 131); */
+    } 
+    /* .devPic{
+        display: none;
+
+    } */
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }} */
+}
+
+
